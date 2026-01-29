@@ -35,9 +35,7 @@ export const Navbar: React.FC = () => {
             ) : (
               // Styled Text Logo mimicking the image
               <div className="font-orbitron font-black text-2xl md:text-3xl italic tracking-tighter flex items-center transform -skew-x-6">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 drop-shadow-md">RF</span>
-                 <span className="text-streak-400 mx-0.5 text-3xl md:text-4xl drop-shadow-[0_0_5px_rgba(234,179,8,0.8)]">⚡</span>
-                 <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-200 to-slate-400 drop-shadow-md">STREAK</span>
+                <img src="https://rfwrath.com/rfstreak/RFStreak1.png" alt="RF Streak">
               </div>
             )}
           </div>

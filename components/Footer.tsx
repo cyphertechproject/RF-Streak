@@ -11,14 +11,12 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img src={LOGO_URL} alt="Logo" className="h-10 w-auto opacity-80" />
-              <span className="font-orbitron font-bold text-2xl text-white tracking-widest">
-                RF<span className="text-streak-600">STREAK</span>
-              </span>
+              <img src="https://rfwrath.com/rfstreak/RFStreak1.png" alt="Logo" className="h-10 w-auto opacity-80" />
+              
             </div>
             <p className="text-slate-500 font-rajdhani text-sm max-w-sm">
-              RF Streak is a private server for educational and entertainment purposes only. 
-              We are not affiliated with CCR Inc. or the official publishers.
+             RF Online server with an active community, stable gameplay, and nonstop action, this is where legends are made.
+            🔥 Choose your race. Build your streak. Dominate the war. 🔥Join RF Streak now!
             </p>
           </div>
 
@@ -26,20 +24,20 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-orbitron text-white uppercase font-bold mb-4">Game Info</h4>
             <ul className="space-y-2 font-rajdhani text-slate-400">
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Server Features</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Drop List</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Rules & Policy</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Terms of Service</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Server Features</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Drop List</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Rules & Policy</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Terms of Service</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-orbitron text-white uppercase font-bold mb-4">Account</h4>
             <ul className="space-y-2 font-rajdhani text-slate-400">
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Register</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Login</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Forgot Password</a></li>
-              <li><a href="#" className="hover:text-streak-500 transition-colors">Support Ticket</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Register</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Login</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Forgot Password</a></li>
+              <li><a href="https://www.facebook.com/rfstreak" target="_blank" className="hover:text-streak-500 transition-colors">Support Ticket</a></li>
             </ul>
           </div>
         </div>

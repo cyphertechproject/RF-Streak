@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(6,182,212,0.15)_0%,_rgba(0,0,0,0.8)_80%)] z-10"></div>
         
         <img 
-          src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop" 
+          src="https://wallpaperaccess.com/full/3308164.jpg" 
           alt="Battlefield" 
           className="w-full h-full object-cover opacity-40 mix-blend-overlay"
         />
@@ -43,9 +43,8 @@ export const Hero: React.FC = () => {
              ) : (
                 // CSS Logo Construction if image fails
                 <h1 className="font-orbitron font-black text-6xl md:text-8xl tracking-tighter italic relative z-10 transform -skew-x-6">
-                  <span className="bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 drop-shadow-[0_0_10px_rgba(34,211,238,0.8)]" style={{ WebkitTextStroke: '1px rgba(34,211,238,0.5)' }}>RF</span>
-                  <span className="text-streak-400 mx-1 drop-shadow-[0_0_15px_rgba(234,179,8,1)] text-7xl md:text-9xl relative -top-2">⚡</span>
-                  <span className="bg-clip-text text-transparent bg-gradient-to-b from-slate-100 via-slate-300 to-slate-500 drop-shadow-[0_0_10px_rgba(6,182,212,0.5)]">STREAK</span>
+                  <span className="bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 drop-shadow-[0_0_10px_rgba(34,211,238,0.8)]" style={{ WebkitTextStroke: '1px rgba(34,211,238,0.5)' }}>PLAY</span>
+                   <span className="bg-clip-text text-transparent bg-gradient-to-b from-slate-100 via-slate-300 to-slate-500 drop-shadow-[0_0_10px_rgba(6,182,212,0.5)]">NOW</span>
                 </h1>
              )}
           </motion.div>
@@ -63,10 +62,10 @@ export const Hero: React.FC = () => {
             
             <div className="flex flex-wrap justify-center gap-4 mb-10 font-rajdhani font-bold text-lg md:text-xl text-slate-300">
               <div className="flex items-center gap-2 px-4 py-2 bg-scifi-panel/50 border border-neon-500/30 rounded skew-x-[-10deg]">
-                 <span className="text-neon-400 skew-x-[10deg]">LEVEL 65 CAP</span>
+                 <span className="text-neon-400 skew-x-[10deg]">LEVEL 50 CAP</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-scifi-panel/50 border border-streak-500/30 rounded skew-x-[-10deg]">
-                 <span className="text-streak-400 skew-x-[10deg]">MID RATE</span>
+                 <span className="text-streak-400 skew-x-[10deg]">HIGH RATE</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-scifi-panel/50 border border-neon-500/30 rounded skew-x-[-10deg]">
                  <span className="text-neon-400 skew-x-[10deg]">BALANCED PVP</span>
@@ -132,10 +131,7 @@ export const Hero: React.FC = () => {
               
               <div className="w-px h-8 bg-white/10"></div>
 
-              <div className="flex flex-col items-start">
-                <span className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">Players</span>
-                <span className="text-streak-400 font-mono font-bold">1,240</span>
-              </div>
+              
             </div>
           </motion.div>
           
