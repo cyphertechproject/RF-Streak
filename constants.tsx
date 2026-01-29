@@ -17,8 +17,8 @@ import { ServerRate, GuideItem, FeatureItem } from "./types";
 export const LOGO_URL = "";
 
 export const SERVER_RATES: ServerRate[] = [
-  { label: "Max Level", value: "65", icon: Trophy, color: "text-streak-400" },
-  { label: "EXP Rate", value: "x5000", icon: Zap, color: "text-blue-400" },
+  { label: "Max Level", value: "50", icon: Trophy, color: "text-streak-400" },
+  { label: "EXP Rate", value: "x9999", icon: Zap, color: "text-blue-400" },
   { label: "Drop Rate", value: "x50", icon: Coins, color: "text-green-400" },
   { label: "Animus XP", value: "x10000", icon: Crosshair, color: "text-purple-400" },
   { label: "PT Rate", value: "GM", icon: Target, color: "text-red-400" },

@@ -129,7 +129,7 @@ export const Hero: React.FC = () => {
                 <span className="text-neon-300 font-mono font-bold">24ms</span>
               </div>
               
-              <div className="w-px h-8 bg-white/10"></div>
+             
 
               
             </div>
