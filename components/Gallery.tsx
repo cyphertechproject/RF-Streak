@@ -5,10 +5,11 @@ import { Container } from './ui/Container';
 
 export const Gallery: React.FC = () => {
   const images = [
-    "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=1000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1000&auto=format&fit=crop"
+    "https://rfwrath.com/rfstreak/streakbanner.png",
+    "https://rfwrath.com/rfstreak/streak1.jpg",
+    "https://rfwrath.com/rfstreak/streak2.jpg",
+"https://rfwrath.com/rfstreak/streak3.jpg",
+"https://rfwrath.com/rfstreak/streak4.jpg"
   ];
 
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
@@ -44,7 +45,7 @@ export const Gallery: React.FC = () => {
          <div className="flex justify-between items-end mb-12">
             <div>
               <h2 className="font-orbitron font-black text-3xl md:text-5xl text-white uppercase">
-                War <span className="text-stroke-1 text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-500" style={{ WebkitTextStroke: '1px white' }}>Archive</span>
+                Streak <span className="text-stroke-1 text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-500" style={{ WebkitTextStroke: '1px white' }}>Archive</span>
               </h2>
             </div>
             <div className="hidden md:block h-px w-1/3 bg-white/20"></div>

@@ -35,42 +35,42 @@ export const FEATURES: FeatureItem[] = [
     title: "Active Chip Wars",
     description: "Daily scheduled wars with massive rewards for the winning race. Dominate the Crag Mine.",
     icon: Crosshair
+   },
+   {
+    title: "Play to Win",
+    description: "Meticulously tuned class skills ensuring fair fights between Accretia, Bellato, and Cora.",
+    icon: Zap
   },
   {
-    title: "Anti-Cheat Protection",
-    description: "Powered by Cerberus anti-cheat to ensure a clean, bot-free gaming environment.",
-    icon: Shield
-  },
-  {
-    title: "High Performance",
-    description: "Hosted on dedicated enterprise servers guaranteeing 99.9% uptime and low latency.",
-    icon: Server
-  }
+    title: "Active Staffs & GMs",
+    description: "Weekly Events scheduled. Participate and get rewards.",
+    icon: Users
+   }
 ];
 
 export const GUIDES: GuideItem[] = [
   {
     title: "Getting Started",
     description: "Everything you need to know about creating an account and installing the client.",
-    image: "https://picsum.photos/id/203/600/400",
+    image: "https://rfwrath.com/rfstreak/streakbanner.png",
     category: "Beginner"
   },
   {
     title: "Leveling Roadmap",
-    description: "The fastest route to reach level 65. Best spots for solo and party grinding.",
-    image: "https://picsum.photos/id/237/600/400",
+    description: "The fastest route to reach level 50. Best spots for solo and party grinding.",
+    image: "https://rfwrath.com/rfstreak/streakbanner.png",
     category: "Beginner"
   },
   {
-    title: "Equipment Upgrade",
-    description: "Master the art of upgrading. Talic combinations and success rates explained.",
-    image: "https://picsum.photos/id/201/600/400",
+    title: "Drops Guide",
+    description: "List drops of monster. Best Spot for farming",
+    image: "https://rfwrath.com/rfstreak/streakbanner.png",
     category: "Advanced"
   },
   {
-    title: "Class Masteries",
-    description: "Detailed breakdown of cross-class skills for Bellato, Cora, and Accretia.",
-    image: "https://picsum.photos/id/223/600/400",
-    category: "Classes"
+    title: "Real Money Trading",
+    description: "To Avoid being blocked. Follow our guidelines",
+    image: "https://rfwrath.com/rfstreak/streakbanner.png",
+    category: "RMT"
   }
 ];

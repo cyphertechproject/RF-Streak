@@ -20,7 +20,7 @@ export const Features: React.FC = () => {
               Why <span className="text-streak-500">RF Streak?</span>
             </h2>
             <p className="text-slate-400 font-rajdhani text-lg mt-4 max-w-2xl mx-auto">
-              Experience the next evolution of classic MMORPG gameplay with modern enhancements.
+              Experience the next evolution of PvP MMORPG gameplay with modern enhancements.
             </p>
         </div>
 
@@ -32,7 +32,7 @@ export const Features: React.FC = () => {
             viewport={{ once: true }}
             className="lg:col-span-2 bg-gradient-to-br from-scifi-panel to-black border border-white/10 rounded-lg p-8 relative overflow-hidden group min-h-[300px] flex flex-col justify-end"
           >
-             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=2165&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-luminosity group-hover:scale-105 transition-transform duration-700"></div>
+             <div className="absolute inset-0 bg-[url('https://wallpaperaccess.com/full/3308117.jpg')] bg-cover bg-center opacity-40 mix-blend-luminosity group-hover:scale-105 transition-transform duration-700"></div>
              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
              
              <div className="relative z-10">
