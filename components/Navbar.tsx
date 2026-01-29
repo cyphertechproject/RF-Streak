@@ -58,7 +58,7 @@ export const Navbar: React.FC = () => {
                 variant="primary" 
                 size="sm" 
                 icon={<Download size={14} />} 
-                href="https://www.facebook.com/rfstreak" 
+                href="https://filebin.net/b8w7ytum0a4oqi6q/RF%20Streak.rar" 
                 target="_blank"
               >
                 Download

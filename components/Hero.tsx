@@ -85,7 +85,7 @@ export const Hero: React.FC = () => {
               size="lg" 
               icon={<Download />} 
               className="w-full sm:w-auto shadow-[0_0_30px_rgba(234,179,8,0.3)]"
-              href="https://www.facebook.com/rfstreak"
+              href="https://filebin.net/b8w7ytum0a4oqi6q/RF%20Streak.rar"
               target="_blank"
             >
               Download Client
