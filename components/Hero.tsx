@@ -81,10 +81,24 @@ export const Hero: React.FC = () => {
             transition={{ delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto relative z-20"
           >
-            <SciFiButton variant="primary" size="lg" icon={<Download />} className="w-full sm:w-auto shadow-[0_0_30px_rgba(234,179,8,0.3)]">
+            <SciFiButton 
+              variant="primary" 
+              size="lg" 
+              icon={<Download />} 
+              className="w-full sm:w-auto shadow-[0_0_30px_rgba(234,179,8,0.3)]"
+              href="https://www.facebook.com/rfstreak"
+              target="_blank"
+            >
               Download Client
             </SciFiButton>
-            <SciFiButton variant="neon" size="lg" icon={<Gamepad2 />} className="w-full sm:w-auto shadow-[0_0_30px_rgba(34,211,238,0.3)]">
+            <SciFiButton 
+              variant="neon" 
+              size="lg" 
+              icon={<Gamepad2 />} 
+              className="w-full sm:w-auto shadow-[0_0_30px_rgba(34,211,238,0.3)]"
+              href="https://www.facebook.com/rfstreak"
+              target="_blank"
+            >
               Create Account
             </SciFiButton>
           </motion.div>

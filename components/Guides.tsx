@@ -17,7 +17,13 @@ export const Guides: React.FC = () => {
             </h2>
             <p className="text-slate-400 font-rajdhani text-lg">Master the mechanics and dominate your enemies.</p>
           </div>
-          <SciFiButton variant="outline" size="sm" icon={<Book size={16} />}>
+          <SciFiButton 
+            variant="outline" 
+            size="sm" 
+            icon={<Book size={16} />}
+            href="https://www.facebook.com/rfstreak"
+            target="_blank"
+          >
             View Knowledge Base
           </SciFiButton>
         </div>
@@ -49,7 +55,7 @@ export const Guides: React.FC = () => {
                 <p className="text-slate-400 text-sm mb-6 font-rajdhani leading-relaxed flex-grow">
                   {guide.description}
                 </p>
-                <a href="#" className="inline-flex items-center text-slate-300 text-sm font-bold uppercase hover:text-neon-400 hover:gap-3 transition-all">
+                <a href="https://www.facebook.com/rfstreak" target="_blank" className="inline-flex items-center text-slate-300 text-sm font-bold uppercase hover:text-neon-400 hover:gap-3 transition-all">
                   Read Guide <ArrowRight size={14} className="ml-2 text-streak-500" />
                 </a>
               </div>

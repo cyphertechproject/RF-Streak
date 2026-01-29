@@ -1,11 +1,13 @@
 import React from 'react';
 import { motion, HTMLMotionProps } from 'framer-motion';
 
-interface SciFiButtonProps extends Omit<HTMLMotionProps<"button">, "children"> {
+interface SciFiButtonProps extends Omit<HTMLMotionProps<"button"> & HTMLMotionProps<"a">, "children"> {
   variant?: 'primary' | 'secondary' | 'outline' | 'neon';
   size?: 'sm' | 'md' | 'lg';
   icon?: React.ReactNode;
   children?: React.ReactNode;
+  href?: string;
+  target?: string;
 }
 
 export const SciFiButton: React.FC<SciFiButtonProps> = ({ 
@@ -14,10 +16,11 @@ export const SciFiButton: React.FC<SciFiButtonProps> = ({
   size = 'md',
   icon,
   className = '',
+  href,
   ...props 
 }) => {
   
-  const baseStyles = "relative font-orbitron font-bold uppercase tracking-wider transition-all duration-200 clip-corner-br flex items-center justify-center gap-2 group overflow-hidden";
+  const baseStyles = "relative font-orbitron font-bold uppercase tracking-wider transition-all duration-200 clip-corner-br flex items-center justify-center gap-2 group overflow-hidden cursor-pointer no-underline text-center";
   
   const variants = {
     // Gold/Yellow Theme (Lightning) - Solid
@@ -39,11 +42,15 @@ export const SciFiButton: React.FC<SciFiButtonProps> = ({
     lg: "px-10 py-4 text-base sm:text-lg"
   };
 
+  const Component = href ? motion.a : motion.button;
+
   return (
-    <motion.button 
+    // @ts-ignore
+    <Component 
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
+      href={href}
       {...props}
     >
       {/* Scanline overlay for button */}
@@ -55,6 +62,6 @@ export const SciFiButton: React.FC<SciFiButtonProps> = ({
 
       {icon && <span className="w-5 h-5 relative z-10">{icon}</span>}
       <span className="relative z-10">{children}</span>
-    </motion.button>
+    </Component>
   );
 };

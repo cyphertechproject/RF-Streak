@@ -31,6 +31,8 @@ export const Community: React.FC = () => {
             <SciFiButton 
               className="bg-[#5865F2] hover:bg-[#4752C4] border-transparent text-white w-full sm:w-auto"
               icon={<MessageCircle />}
+              href="https://www.facebook.com/rfstreak"
+              target="_blank"
             >
               Join Discord Server
             </SciFiButton>
@@ -38,6 +40,8 @@ export const Community: React.FC = () => {
             <SciFiButton 
               className="bg-[#1877F2] hover:bg-[#166fe5] border-transparent text-white w-full sm:w-auto"
               icon={<Facebook />}
+              href="https://www.facebook.com/rfstreak"
+              target="_blank"
             >
               Follow Facebook
             </SciFiButton>

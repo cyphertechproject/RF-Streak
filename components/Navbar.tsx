@@ -57,8 +57,24 @@ export const Navbar: React.FC = () => {
               ))}
             </div>
             <div className="flex items-center gap-4 pl-6 border-l border-white/10">
-              <SciFiButton variant="primary" size="sm" icon={<Download size={14} />}>Download</SciFiButton>
-              <SciFiButton variant="secondary" size="sm" icon={<User size={14} />}>GameCP</SciFiButton>
+              <SciFiButton 
+                variant="primary" 
+                size="sm" 
+                icon={<Download size={14} />} 
+                href="https://www.facebook.com/rfstreak" 
+                target="_blank"
+              >
+                Download
+              </SciFiButton>
+              <SciFiButton 
+                variant="secondary" 
+                size="sm" 
+                icon={<User size={14} />} 
+                href="https://www.facebook.com/rfstreak" 
+                target="_blank"
+              >
+                GameCP
+              </SciFiButton>
             </div>
           </div>
 
@@ -86,8 +102,22 @@ export const Navbar: React.FC = () => {
                   </a>
                 ))}
                 <div className="flex flex-col gap-4 mt-4">
-                  <SciFiButton variant="primary" className="w-full">Download Client</SciFiButton>
-                  <SciFiButton variant="secondary" className="w-full">Register / Login</SciFiButton>
+                  <SciFiButton 
+                    variant="primary" 
+                    className="w-full" 
+                    href="https://www.facebook.com/rfstreak" 
+                    target="_blank"
+                  >
+                    Download Client
+                  </SciFiButton>
+                  <SciFiButton 
+                    variant="secondary" 
+                    className="w-full" 
+                    href="https://www.facebook.com/rfstreak" 
+                    target="_blank"
+                  >
+                    Register / Login
+                  </SciFiButton>
                 </div>
               </div>
             </Container>
