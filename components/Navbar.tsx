@@ -33,7 +33,6 @@ export const Navbar: React.FC = () => {
             {LOGO_URL ? (
               <img src={LOGO_URL} alt="RF Streak" className="h-8 md:h-10 w-auto" />
             ) : (
-              // Styled Text Logo mimicking the image
               <div className="font-orbitron font-black text-2xl md:text-3xl italic tracking-tighter flex items-center transform -skew-x-6">
                 <img src="https://rfwrath.com/rfstreak/RFStreak1.png" alt="RF Streak" className="h-8 md:h-10 w-auto" />
               </div>
